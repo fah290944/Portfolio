@@ -1,69 +1,72 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
 
-body{
+body {
   font-family: 'Poppins', sans-serif;
+  background-color: rgb(15, 15, 15);
+  overflow: hidden;
 }
 
-*{
+* {
   padding: 0%;
   margin: 0%;
   box-sizing: border-box;
 }
 
-.nav{
-  background: #4E0145;
+.nav {
+  background-color: rgb(17, 17, 17);
   padding: 5px 20px;
   display: flex;
   justify-content: space-between;
   align-items: center;
-
 }
 
- ul{
+ul {
   list-style-type: none;
 }
 
-a{
+a {
   color: rgb(255, 255, 255);
   text-decoration: none;
 }
 
-a:hover{
-  color: rgb(255, 210, 9);
+li a:hover,
+li a.active {
+  color: #FC6D6D;
 }
 
-.menu li{
+.menu li {
   font-size: 16px;
   padding: 10px 20px;
   word-wrap: nowrap;
 }
 
-.logo{
+.logo {
   list-style-type: none;
 }
 
 .logo a,
-.Mobile-Menu{
+.Mobile-Menu {
   font-size: 20px;
   list-style-type: none;
 }
 
-.menu{
+.menu {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
   align-items: center;
 }
 
-.Mobile-Menu{
+.Mobile-Menu {
   display: none;
 }
 
-@media screen and (max-width: 480px) {
-  .Mobile-Menu{
+@media screen and (max-width: 579px) {
+  .Mobile-Menu {
     display: block;
   }
-  .menu{
+
+  .menu {
     width: 100%;
     height: auto;
     display: flex;
@@ -71,17 +74,18 @@ a:hover{
     flex-direction: column;
     top: 42px;
     transition: 0.5s ease;
-    background: #4E0145;
+    background:  rgb(15, 15, 15);
     left: -100%;
     opacity: 0;
   }
-  .menu.active{
-    background: #4E0145;
+
+  .menu.active {
+    background:  rgb(15, 15, 15);
     left: 0;
     opacity: 1;
     z-index: 1;
     align-content: center;
     transition: 0.5s ease;
   }
-  
+
 }

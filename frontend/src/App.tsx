@@ -16,21 +16,16 @@ return (
 
   <Router>
 
-   <div>
-
    <Navbar />
 
    <Routes>
 
        <Route path="/" element={<Home />} />
-       <Route path="/About" element={<About />} />
+       <Route path="/AboutMe" element={<About />} />
        <Route path="/Project" element={<Project />} />
        <Route path="/Contact" element={<Contact />} />
 
-
    </Routes>
-
-   </div>
 
   </Router>
 

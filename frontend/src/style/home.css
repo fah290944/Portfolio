@@ -1,0 +1,917 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+body {
+  font-family: 'Poppins', sans-serif;
+}
+/* .Desktop----big-------------------Home----------------------------- */
+@media screen and (min-width: 1325px)  {
+  .home-containner {
+    width: 100%;
+    justify-content: center;
+    display: flex;
+  }
+  .bg{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100vh;
+    overflow-y: scroll;
+    padding-block: 100px;
+    max-width: 1980px;
+  }
+  
+  .bg::-webkit-scrollbar {
+    display: none;
+  }
+  
+  .box-profile-img{
+    display: flex;
+    justify-content: end;
+    margin-right: 25px;
+  }
+  .profile-img{
+    position: absolute;
+  }
+  
+  .all-text{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-left: 45px;
+  }
+  .all-text .first-text{
+    width: 100%;
+  }
+  .all-text .boxtext-containner{
+    margin-bottom: 35px;
+    width: 120%;
+  }
+  .all-text .third1-text{
+    width: 100%;
+  }
+  
+  .home-containner .first-text {
+    margin-bottom: 35px;
+    font-size: 40px;
+    color: white;
+  }
+  
+  .boxtext-containner {
+    display: flex;
+  }
+  
+  .boxtext-containner .static-text {
+    display: flex;
+    color: #fff;
+    font-size: 50px;
+    font-weight: 400;
+  }
+  
+  .boxtext-containner .dynamic-text {
+    height: 90px;
+    line-height: 90px;
+    margin-top: -6px;
+    overflow: hidden;
+  }
+  
+  .dynamic-text li {
+    list-style: none;
+    color: #FC6D6D;
+    font-size: 65px;
+    position: relative;
+    top: 0;
+    animation: slide 12s steps(4) infinite;
+  }
+  
+  @keyframes slide {
+    100% {
+      top: -360px;
+    }
+  }
+  
+  .dynamic-text li span {
+    position: relative;
+    margin: 5px 0;
+    line-height: 90px;
+  }
+  
+  .dynamic-text li span::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    height: 99%;
+    width: 100%;
+    background: rgb(15, 15, 15);
+    border-left: 2px solid #FC6D6D;
+    animation: typing 3s steps(10) infinite;
+  }
+  
+  @keyframes typing {
+  
+    40%,
+    60% {
+      left: calc(100% + 30px);
+    }
+  
+    100% {
+      left: 0;
+    }
+  }
+  
+  .third1-text {
+    color: white;
+    font-size: 28px;
+    word-wrap: break-word;
+  }
+  .btn-all{
+    display: flex;
+    justify-content: center;
+    width: 50%;
+    margin-block-start: 35px !important;
+    margin-bottom: 30px !important;
+    margin-left: 20px;
+    gap: 15px
+  }
+  .btn-all .btn-download{
+    width: 190px !important;
+    height: 60px !important;
+    margin-right: 0px !important;
+    font-size: 16px !important;
+    font-weight: 600 !important;
+    border-radius: 30px !important;
+    border: 2px solid #9f9f9f !important;
+    color: white !important;
+  }
+  .btn-all .btn-about-me{
+    width: 190px !important;
+    height: 60px !important;
+    font-size: 16px !important;
+    font-weight: 600 !important;
+    border-radius: 30px !important;
+    background-color: #FC6D6D !important;
+  }
+  
+  .img-social{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    gap: 14px;
+    margin-left: 20px;
+  }
+  
+  .home-containner .bg .img-social .github{
+    width: 60px;
+    height: 60px;
+    background-color: rgb(0, 0, 0);
+    margin-inline: 15px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .home-containner .bg .img-social .email{
+    width: 70px;
+    height: 70px;
+    background-color: white;
+    margin-inline: 15px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .home-containner .bg .img-social .linkin{
+    width: 70px;
+    height: 70px;
+    background-color: white;
+    margin-inline: 15px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .img-github{
+    width: 70px;
+    height: 70px;
+    margin-top: 10px;
+  }
+  .img-email{
+    width: 45px;
+    height: 40px;
+  }
+  .img-linkin{
+    width: 70px;
+    height: 70px;
+  }
+  }
+/* .Desktop----mid-------------------Home----------------------------- */
+@media screen and (min-width: 1025px) and (max-width: 1324px) {
+  .home-containner {
+    width: 100%;
+  }
+  .bg{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100vh;
+    overflow-y: scroll;
+    padding-block: 100px;
+  }
+  
+  .bg::-webkit-scrollbar {
+    display: none;
+  }
+  
+  .box-profile-img{
+    display: flex;
+    justify-content: end;
+    margin-right: 25px;
+  }
+  .profile-img{
+    position: absolute;
+  }
+  
+  .all-text{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-left: 30px;
+  }
+  .all-text .first-text{
+    width: 100%;
+  }
+  .all-text .boxtext-containner{
+    margin-bottom: 20px;
+    width: 120%;
+  }
+  .all-text .third1-text{
+    width: 100%;
+  }
+  
+  .home-containner .first-text {
+    margin-bottom: 30px;
+    font-size: 40px;
+    color: white;
+  }
+  
+  .boxtext-containner {
+    display: flex;
+  }
+  
+  .boxtext-containner .static-text {
+    display: flex;
+    color: #fff;
+    font-size: 50px;
+    font-weight: 400;
+  }
+  
+  .boxtext-containner .dynamic-text {
+    height: 90px;
+    line-height: 90px;
+    margin-top: -6px;
+    overflow: hidden;
+  }
+  
+  .dynamic-text li {
+    list-style: none;
+    color: #FC6D6D;
+    font-size: 45px;
+    position: relative;
+    top: 0;
+    animation: slide 12s steps(4) infinite;
+  }
+  
+  @keyframes slide {
+    100% {
+      top: -360px;
+    }
+  }
+  
+  .dynamic-text li span {
+    position: relative;
+    margin: 5px 0;
+    line-height: 90px;
+  }
+  
+  .dynamic-text li span::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    height: 136%;
+    width: 100%;
+    background: rgb(15, 15, 15);
+    border-left: 2px solid #FC6D6D;
+    animation: typing 3s steps(10) infinite;
+  }
+  
+  @keyframes typing {
+  
+    40%,
+    60% {
+      left: calc(100% + 30px);
+    }
+  
+    100% {
+      left: 0;
+    }
+  }
+  
+  .third1-text {
+    color: white;
+    font-size: 25px;
+    word-wrap: break-word;
+  }
+  .btn-all{
+    display: flex;
+    justify-content: center;
+    width: 50%;
+    margin-block-start: 30px !important;
+    margin-bottom: 30px !important;
+    margin-left: 20px;
+    gap: 15px
+  }
+  .btn-all .btn-download{
+    width: 190px !important;
+    height: 60px !important;
+    margin-right: 0px !important;
+    font-size: 16px !important;
+    font-weight: 600 !important;
+    border-radius: 30px !important;
+    border: 2px solid #9f9f9f !important;
+    color: white !important;
+  }
+  .btn-all .btn-about-me{
+    width: 190px !important;
+    height: 60px !important;
+    font-size: 16px !important;
+    font-weight: 600 !important;
+    border-radius: 30px !important;
+    background-color: #FC6D6D !important;
+  }
+  
+  .img-social{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    gap: 14px;
+    margin-left: 20px;
+  }
+  
+  .home-containner .bg .img-social .github{
+    width: 60px;
+    height: 60px;
+    background-color: rgb(0, 0, 0);
+    margin-inline: 15px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .home-containner .bg .img-social .email{
+    width: 70px;
+    height: 70px;
+    background-color: white;
+    margin-inline: 15px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .home-containner .bg .img-social .linkin{
+    width: 70px;
+    height: 70px;
+    background-color: white;
+    margin-inline: 15px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .img-github{
+    width: 70px;
+    height: 70px;
+    margin-top: 10px;
+  }
+  .img-email{
+    width: 45px;
+    height: 40px;
+  }
+  .img-linkin{
+    width: 70px;
+    height: 70px;
+  }
+  }
+/* .Desktop-----------------------Home----------------------------- */
+@media screen and (min-width: 881px) and (max-width: 1024px) {
+  .home-containner {
+    width: 100%;
+  }
+  .bg{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100vh;
+    overflow-y: scroll;
+    padding-block: 100px;
+  }
+  
+  .bg::-webkit-scrollbar {
+    display: none;
+  }
+  
+  .box-profile-img{
+    display: flex;
+    justify-content: end;
+    margin-right: 25px;
+  }
+  .profile-img{
+    position: absolute;
+  }
+  
+  .all-text{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-left: 30px;
+  }
+  .all-text .first-text{
+    width: 100%;
+  }
+  .all-text .boxtext-containner{
+    margin-bottom: 20px;
+    width: 120%;
+  }
+  .all-text .third1-text{
+    width: 105%;
+  }
+  
+  .home-containner .first-text {
+    margin-bottom: 30px;
+    font-size: 35px;
+    color: white;
+  }
+  
+  .boxtext-containner {
+    display: flex;
+  }
+  
+  .boxtext-containner .static-text {
+    display: flex;
+    color: #fff;
+    font-size: 50px;
+    font-weight: 400;
+  }
+  
+  .boxtext-containner .dynamic-text {
+    height: 90px;
+    line-height: 90px;
+    margin-top: -6px;
+    overflow: hidden;
+  }
+  
+  .dynamic-text li {
+    list-style: none;
+    color: #FC6D6D;
+    font-size: 45px;
+    position: relative;
+    top: 0;
+    animation: slide 12s steps(4) infinite;
+  }
+  
+  @keyframes slide {
+    100% {
+      top: -360px;
+    }
+  }
+  
+  .dynamic-text li span {
+    position: relative;
+    margin: 5px 0;
+    line-height: 90px;
+  }
+  
+  .dynamic-text li span::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    height: 136%;
+    width: 100%;
+    background: rgb(15, 15, 15);
+    border-left: 2px solid #FC6D6D;
+    animation: typing 3s steps(10) infinite;
+  }
+  
+  @keyframes typing {
+  
+    40%,
+    60% {
+      left: calc(100% + 30px);
+    }
+  
+    100% {
+      left: 0;
+    }
+  }
+  
+  .third1-text {
+    color: white;
+    font-size: 20px;
+    word-wrap: break-word;
+  }
+  .btn-all{
+    display: flex;
+    justify-content: center;
+    width: 50%;
+    margin-block-start: 40px !important;
+    margin-bottom: 30px !important;
+    margin-left: 20px;
+    gap: 15px
+  }
+  .btn-all .btn-download{
+    width: 190px !important;
+    height: 60px !important;
+    margin-right: 0px !important;
+    font-size: 16px !important;
+    font-weight: 600 !important;
+    border-radius: 30px !important;
+    border: 2px solid #9f9f9f !important;
+    color: white !important;
+  }
+  .btn-all .btn-about-me{
+    width: 190px !important;
+    height: 60px !important;
+    font-size: 16px !important;
+    font-weight: 600 !important;
+    border-radius: 30px !important;
+    background-color: #FC6D6D !important;
+  }
+  
+  .img-social{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    gap: 14px;
+    margin-left: 20px;
+  }
+  
+  .home-containner .bg .img-social .github{
+    width: 60px;
+    height: 60px;
+    background-color: rgb(0, 0, 0);
+    margin-inline: 15px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .home-containner .bg .img-social .email{
+    width: 70px;
+    height: 70px;
+    background-color: white;
+    margin-inline: 15px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .home-containner .bg .img-social .linkin{
+    width: 70px;
+    height: 70px;
+    background-color: white;
+    margin-inline: 15px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .img-github{
+    width: 70px;
+    height: 70px;
+    margin-top: 10px;
+  }
+  .img-email{
+    width: 45px;
+    height: 40px;
+  }
+  .img-linkin{
+    width: 70px;
+    height: 70px;
+  }
+  }
+
+/* .Tablet-----------------------Home----------------------------- */
+@media screen and (min-width: 580px) and (max-width: 880px){
+  .bg{
+      width: 100%;
+      height: 90vh;
+      overflow-y: scroll;
+      padding-block: 100px;
+  }
+  .home-containner .first-text {
+    margin-block: 30px;
+    font-size: 30px;
+    color: white;
+    margin-bottom: 15px;
+  }
+  .home-containner .bg{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  .home-containner .bg .box-profile-img{
+    display: flex;
+    justify-content: center;
+    padding: 5% 0px 0px;
+  }
+  .all-text .first-text{
+    display: flex;
+    justify-content: center;
+  }
+  .all-text .boxtext-containner{
+    display: flex;
+    justify-content: center;
+  }
+  .all-text .third1-text{
+    display: flex;
+    justify-content: center;
+  }
+
+  .boxtext-containner .static-text {
+    display: flex;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 400;
+  }
+
+  .boxtext-containner .dynamic-text {
+    height: 90px;
+    line-height: 90px;
+    margin-top: -30px;
+    overflow: hidden;
+    position: relative;
+  }
+
+  .dynamic-text li {
+    list-style: none;
+    color: #FC6D6D;
+    font-size: 30px;
+    font-weight: 400;
+    position: relative;
+    top: 0;
+    animation: slide 12s steps(4) infinite;
+  }
+
+  @keyframes slide {
+    100% {
+      top: -360px;
+    }
+  }
+
+  .dynamic-text li span {
+    position: relative;
+    margin: 5px 0;
+    line-height: 90px;
+  }
+
+  .dynamic-text li span::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 1px;
+    height: 100%;
+    width: 100%;
+    background: rgb(15, 15, 15);
+    border-left: 2px solid #FC6D6D;
+    animation: typing 3s steps(10) infinite;
+  }
+
+  @keyframes typing {
+    40%,
+    60% {
+      left: calc(100%);
+    }
+    100% {
+      left: 0;
+    }
+  }
+
+  .third1-text {
+    color: white;
+    font-size: 20px;
+    margin-top: -20px;
+    text-align: center;
+    padding: 10px;
+    margin-bottom: 10px;
+    word-wrap: break-word;
+  }
+
+  .profile-img{
+    border-radius: 50%;
+    object-fit: cover;
+    box-shadow: 0px 2px 15px #575757;
+  }
+
+  .btn-about-me{
+    border: 2px solid #5e5e5e; /* Green */
+  }
+
+  .btn-all {
+    display: flex;
+    justify-content: center;
+  }
+
+.github{
+    width: 60px;
+    height: 60px;
+    background-color: rgb(0, 0, 0);
+    margin-inline: 15px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .home-containner .bg .img-social .email{
+    width: 65px;
+    height: 65px;
+    background-color: white;
+    margin-inline: 15px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .home-containner .bg .img-social .linkin{
+    width: 65px;
+    height: 65px;
+    background-color: white;
+    margin-inline: 15px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+
+/* .Mobile-----------------------Home----------------------------- */
+@media screen and (max-width: 579px) {
+    .bg{
+        width: 100%;
+        height: 90vh;
+        overflow-y: scroll;
+        padding-block: 100px;
+    }
+    .home-containner .first-text {
+      margin-block: 30px;
+      font-size: 22px;
+      color: white;
+      margin-bottom: 15px;
+    }
+    .home-containner .bg{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+    }
+    .home-containner .bg .box-profile-img{
+      display: flex;
+      justify-content: center;
+      padding: 10% 0px 0px;
+    }
+    .all-text .first-text{
+      display: flex;
+      justify-content: center;
+    }
+    .all-text .boxtext-containner{
+      display: flex;
+      justify-content: center;
+    }
+    .all-text .third1-text{
+      display: flex;
+      justify-content: center;
+    }
+  
+    .boxtext-containner .static-text {
+      display: flex;
+      color: #fff;
+      font-size: 20px;
+      font-weight: 400;
+    }
+  
+    .boxtext-containner .dynamic-text {
+      height: 90px;
+      line-height: 90px;
+      margin-top: -30px;
+      overflow: hidden;
+      position: relative;
+    }
+  
+    .dynamic-text li {
+      list-style: none;
+      color: #FC6D6D;
+      font-size: 25px;
+      font-weight: 400;
+      position: relative;
+      top: 0;
+      animation: slide 12s steps(4) infinite;
+    }
+  
+    @keyframes slide {
+      100% {
+        top: -360px;
+      }
+    }
+  
+    .dynamic-text li span {
+      position: relative;
+      margin: 5px 0;
+      line-height: 90px;
+    }
+  
+    .dynamic-text li span::after {
+      content: "";
+      position: absolute;
+      left: 0;
+      top: 1px;
+      height: 100%;
+      width: 100%;
+      background: rgb(15, 15, 15);
+      border-left: 2px solid #FC6D6D;
+      animation: typing 3s steps(10) infinite;
+    }
+  
+    @keyframes typing {
+      40%,
+      60% {
+        left: calc(100%);
+      }
+      100% {
+        left: 0;
+      }
+    }
+  
+    .third1-text {
+      color: white;
+      font-size: 15px;
+      margin-top: -20px;
+      text-align: center;
+      padding: 10px;
+      margin-bottom: 10px;
+      word-wrap: break-word;
+    }
+  
+    .third2-text {
+      color: white;
+      font-size: 15px;
+      margin-bottom: 25px;
+    }
+  
+    .profile-img{
+      border-radius: 50%;
+      object-fit: cover;
+      box-shadow: 0px 2px 15px #575757;
+    }
+  
+    .btn-about-me{
+      border: 2px solid #5e5e5e; /* Green */
+    }
+  
+    .btn-all {
+      display: flex;
+      justify-content: center;
+    }
+  
+    .home-containner .bg .img-social .github{
+      width: 60px;
+      height: 60px;
+      background-color: rgb(0, 0, 0);
+      margin-inline: 15px;
+      border-radius: 50%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    .home-containner .bg .img-social .email{
+      width: 65px;
+      height: 65px;
+      background-color: white;
+      margin-inline: 15px;
+      border-radius: 50%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    .home-containner .bg .img-social .linkin{
+      width: 65px;
+      height: 65px;
+      background-color: white;
+      margin-inline: 15px;
+      border-radius: 50%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+  }
