@@ -27,8 +27,6 @@ function Navbar() {
   const [pathData, setPathData] = useState([
     {path:"/", title:"Home" ,statusActive: true},
     {path:"/AboutMe", title:"About Me",statusActive: false},
-    {path:"/Project", title:"Project",statusActive: false},
-    {path:"/Contact", title:"Contact",statusActive: false}
   ]);
 
   const location = useLocation();
