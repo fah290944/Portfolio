@@ -41,7 +41,7 @@ function Home() {
               <h5 className="third1-text" >{subtitle}</h5>
             </div>
             <div className='btn-all' style={{marginBlockStart: "10px",marginBottom: "30px"}}>
-              <Button className="btn-download" href="/resume/CV.pdf" variant="outlined" style={{ marginRight: "15px", width: "140px", height: "45px", fontSize: "13px" ,fontWeight: 600,borderRadius: "30px",border: "2px solid #9f9f9f",color: "white"}} download>DOWNLOAD CV</Button>
+              <Button className="btn-download" href="/resume/CV-Thansiri-Suphimon.pdf" variant="outlined" style={{ marginRight: "15px", width: "140px", height: "45px", fontSize: "13px" ,fontWeight: 600,borderRadius: "30px",border: "2px solid #9f9f9f",color: "white"}} download>DOWNLOAD CV</Button>
               <Button className="btn-about-me" component={RouterLink} to="/AboutMe" variant="contained" style={{ width: "140px", height: "45px", fontSize: "13px" ,fontWeight: 600,borderRadius: "30px",backgroundColor: "#FC6D6D"}}>ABOUT ME</Button>
             </div>
             <div className="img-social">
