@@ -31,10 +31,17 @@ function About() {
     },
     {
       job: "Web Application Developer",
-      time: "2 Jan - 29 Feb 2024",
+      time: "Oct 20234 - Feb 2024",
       company: "Online Asset Co., Ltd.,",
       jobDescription: "Responsible for building Frontend as assigned.",
       skill: ["Javascript", "Vue", "Nuxt", "Tailwind"]
+    },
+    {
+      job: "Frontend Developer",
+      time: "Mar 2024 - Present",
+      company: "Melody Skill Co., Ltd.,",
+      jobDescription: "Responsible for editing the Ul according to the company's specifications and customizing the Ul to make it beautiful.",
+      skill: ["Javascript", "React", "SCSS", "Bootstrap"]
     },
   ]);
 
