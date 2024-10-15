@@ -31,7 +31,7 @@ function About() {
     },
     {
       job: "Web Application Developer",
-      time: "Oct 20234 - Feb 2024",
+      time: "Dec 2023 - Feb 2024",
       company: "Online Asset Co., Ltd.,",
       jobDescription: "Responsible for building Frontend as assigned.",
       skill: ["Javascript", "Vue", "Nuxt", "Tailwind"]
