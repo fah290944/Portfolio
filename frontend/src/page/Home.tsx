@@ -16,11 +16,11 @@ function Home() {
     { title: "Thansiri Suphimon" },
     { title: "Computer Engineering" },
     { title: "Software Engineering" },
-    { title: "Full Stack Developer" }
+    { title: "Frontend Developer" }
   ]);
 
   const [subtitle, setsubtitles] = useState(
-    "Responsible for Full Stack Developer work, which develops websites or applications and creates websites that are good and functional as designed, both Back-End and Front-End"
+    "Responsible for Frontend Developer work, which develops websites or applications and creates websites that are good and functional as designed Front-End"
   )
 
 

@@ -56,54 +56,19 @@ function About() {
     },
     {
       nameProject: "Hotel Website",
-      projectDetails: "Online Asset Co., Ltd.,",
+      projectDetails: "The hotel website project for the Software Engineering course is divided into different subsystems, with the assigned responsibility to manage the Employee Management System and the Review System.",
       skill: ["Typescript", "React", "CSS"],
       photo: hotel,
       web: "https://github.com/fah290944/team03"
     },
     {
       nameProject: "Portfolio Website",
-      projectDetails: "Entronica Co., Ltd.,",
+      projectDetails: "This project showcases my fundamental skills in using Figma and my ability to translate ideas into an efficient, creative, and truly reflective website design of my identity.",
       skill: ["Figma", "GitHub"],
       photo: figma,
       web: "https://www.figma.com/design/SwO8nQkNRz8J2qbq5vliXH/Portfolio?node-id=0-1&t=nzACG8HsoQywhJSd-1"
     },
   ]);
-
-  const [changepage, setChangepage] = useState('');
-
-  useEffect(() => {
-    // const handleScroll = () => {
-    //   const experienceSection = document.getElementById('experience');
-    //   const sectionTop = experienceSection?.offsetTop;
-    //   const sectionHeight = experienceSection?.offsetHeight;
-    //   const scrollPosition = window.scrollY + window.innerHeight;
-    //   console.log("experienceSection",experienceSection)
-    //   console.log("sectionTop",sectionTop)
-    //   console.log("sectionHeight",sectionHeight)
-    //   console.log("scrollPosition",scrollPosition)
-    //   if(sectionTop && scrollPosition && sectionHeight){
-    //     if (scrollPosition >= sectionTop && scrollPosition <= sectionTop + sectionHeight) {
-    //       setChangepage('purple');  // เปลี่ยนสีเมื่อถึงตำแหน่ง section
-    //       console.log("sfjshshshgh***")
-    //     } 
-    //   }else {
-    //     setChangepage('');  // รีเซ็ตสีเมื่อออกจากตำแหน่ง section
-    //   }
-
-    // };
-
-    // handleScroll()
-
-
-    // window.addEventListener('scroll', handleScroll);
-
-    // // ลบ event listener เมื่อ component ถูก unmount
-    // return () => {
-    //   window.removeEventListener('scroll', handleScroll);
-    // };
-  }, []);
-
 
   return (
     <div className="bg-about-me">
@@ -111,7 +76,7 @@ function About() {
         <div>
           <div className="pb-[20px]">
             <h1 className="font-bold 2xl:text-6xl xl:text-5xl lg:text-4xl 2md:text-3xl md:text-2xl text-[35px]">Thansiri Suphimon</h1>
-            <h2 className="mt-3 2xl:text-[40px] xl:text-[35px] lg:text-[28px] 2md:text-[20px] md:text-[18px] text-[25px]">Full Stack Developer</h2>
+            <h2 className="mt-3 2xl:text-[40px] xl:text-[35px] lg:text-[28px] 2md:text-[20px] md:text-[18px] text-[25px]">Frontend Developer</h2>
             <p className="mt-4 leading-normal text-[#9B9B9B] 2xl:max-w-[660px] xl:max-w-[350px] lg:max-w-[360px] 2md:max-w-[315px] md:max-w-[265px] max-w-[310px] 2xl:text-[25px] xl:text-[16px] lg:text-[16px] 2md:text-[12px] md:text-[12px] text-[14px]">I want to create websites that are beautiful, challenging and exciting.</p>
           </div>
         </div>
