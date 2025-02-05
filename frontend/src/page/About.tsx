@@ -37,11 +37,11 @@ function About() {
       skill: ["Javascript", "Vue", "Nuxt", "Tailwind"]
     },
     {
-      job: "Frontend Developer",
-      time: "16 Aug - 30 Sep 2024",
-      company: "Melody Skill Co., Ltd.,",
-      jobDescription: "Responsible for editing the Ul according to the company's specifications and customizing the Ul to make it beautiful.",
-      skill: ["Javascript", "React", "SCSS", "Bootstrap"]
+      job: "Web Developer",
+      time: "4 Nov 2024 - 6 Feb 2025",
+      company: "Connect Accounting & Advisory Co., Ltd.,",
+      jobDescription: "Responsible for Analysis, Design UX/UI using Figma and develop Front-End websites.",
+      skill: ["Javascript", "Next", "SCSS", "Bootstrap", "Tailwind"]
     },
   ]);
 
