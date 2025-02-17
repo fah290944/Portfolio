@@ -34,7 +34,7 @@ function About() {
       time: "2 Jan - 29 Feb 2024",
       company: "Online Asset Co., Ltd.,",
       jobDescription: "Responsible for building Frontend as assigned.",
-      skill: ["Javascript", "Vue", "Nuxt", "Tailwind"]
+      skill: ["Typescript", "Vue", "Nuxt", "Tailwind"]
     },
     {
       job: "Web Developer",
