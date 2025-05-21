@@ -51,7 +51,7 @@ function Navbar() {
 
   return(
   <nav className="nav">
-      <li className="logo"><a>THANSIRI</a></li>
+      <li className="logo"><a href="/">THANSIRI</a></li>
       <ul className={click ? "menu active" : "menu"}>
       { pathData.map((data,index) => 
         (<Link to={data.path} key={index}>

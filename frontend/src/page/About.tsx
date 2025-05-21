@@ -16,33 +16,33 @@ function About() {
 
   const [experience, setExperience] = useState([
     {
-      job: "Frontend Developer Co-op",
-      time: "17 Jul - 3 Nov 2023",
-      company: "Entronica Co., Ltd.,",
-      jobDescription: "Responsible for editing the Ul according to the company's specifications and customizing the Ul to make it beautiful.",
-      skill: ["Javascript", "Next", "SCSS", "Bootstrap"]
+      job: "Web Developer",
+      time: "Nov 2024 - Jan 2025",
+      company: "Connect Accounting & Advisory Co., Ltd.,",
+      jobDescription: "Responsible for analyzing client requirements, designing system flow and UX/UI, and developing the web application frontend.",
+      skill: ["Next" ,"React", "Javascript","SCSS", "Bootstrap", "Tailwind"]
     },
-    {
+        {
+      job: "Web Application Developer",
+      time: "Jan - Feb 2024",
+      company: "Online Asset Co., Ltd.,",
+      jobDescription: "Responsible for customizing UI in alignment with company guidelines to enhance visual appeal and usability.",
+      skill: [ "Vue", "Nuxt", "Typescript", "Tailwind"]
+    },
+        {
       job: "Job Search website",
       time: "Dec 2023 - Feb 2024",
       company: "Freelance",
-      jobDescription: "Responsible for designing UI using Figma and building Frontend according to Figma.",
-      skill: ["Javascript", "Next", "SCSS", "Tailwind"]
+      jobDescription: "Responsible for analyzing client requirements, designing system flow and UX/UI, and developing the web application frontend.",
+      skill: [ "Next", "Javascript", "SCSS", "Tailwind"]
     },
     {
-      job: "Web Application Developer",
-      time: "2 Jan - 29 Feb 2024",
-      company: "Online Asset Co., Ltd.,",
-      jobDescription: "Responsible for building Frontend as assigned.",
-      skill: ["Typescript", "Vue", "Nuxt", "Tailwind"]
-    },
-    {
-      job: "Web Developer",
-      time: "4 Nov 2024 - 6 Feb 2025",
-      company: "Connect Accounting & Advisory Co., Ltd.,",
-      jobDescription: "Responsible for Analysis, Design UX/UI using Figma and develop Front-End websites.",
-      skill: ["Javascript", "Next", "SCSS", "Bootstrap", "Tailwind"]
-    },
+      job: "Frontend Developer Co-op",
+      time: "Jul - Oct 2023",
+      company: "Entronica Co., Ltd.,",
+      jobDescription: "Responsible for customizing UI in alignment with company guidelines to enhance visual appeal and usability.",
+      skill: [ "Next", "Javascript","SCSS", "Bootstrap"]
+    }
   ]);
 
   const [project, setProject] = useState([
