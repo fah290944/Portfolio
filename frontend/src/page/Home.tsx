@@ -1,5 +1,5 @@
 import Button from "@mui/material/Button";
-import React, { useEffect, useState } from "react";
+import React from "react";
 import ParticleBg from '../components/ParticleBg';
 import pf from '../image/pf.png';
 import Gmail from '../image/Gmail_Logo_512px.png';
@@ -7,21 +7,18 @@ import Linkedin from '../image/linkedin-logo.jpg';
 import Github from '../image/github-white.png';
 import '../style/home.scss'
 import { Link as RouterLink } from "react-router-dom";
-import { height, margin } from "@mui/system";
 
 
 function Home() {
   
-  const [datatext, setDataText] = useState([
+  const datatext = [
     { title: "Thansiri Suphimon" },
     { title: "Computer Engineering" },
     { title: "Software Engineering" },
     { title: "Frontend Developer" }
-  ]);
+  ];
 
-  const [subtitle, setsubtitles] = useState(
-    "Responsible for Frontend Developer work, which develops websites or applications and creates websites that are good and functional as designed Front-End"
-  )
+  const subtitle = "Responsible for Frontend Developer work, which develops websites or applications and creates websites that are good and functional as designed Front-End";
 
 
   return (
@@ -98,22 +95,22 @@ function Home() {
             <div className="img-social">
               <div className="github">
                 <a href="https://github.com/fah290944" >
-                  <img className="img-github" src={Github} width="65px" height="65px"></img>
+                  <img className="img-github" src={Github} alt="GitHub profile" width="65px" height="65px"></img>
                 </a>
               </div>
               <div className="email">
-                <img className="img-email" src={Gmail} width="45px" height="40px"></img>
+                <img className="img-email" src={Gmail} alt="Gmail" width="45px" height="40px"></img>
               </div>
               <div className="linkin">
                 <a href="https://www.linkedin.com/in/thansiri-suphimon-881135276/">
-                  <img className="img-linkin"  style={{borderRadius: "50%"}} src={Linkedin} width="70px" height="70px"></img>
+                  <img className="img-linkin"  style={{borderRadius: "50%"}} src={Linkedin} alt="LinkedIn profile" width="70px" height="70px"></img>
                 </a>
               </div>
             </div>
           </div>
           <div className="tem-rigth">
             <div className='box-profile-img'>
-              <img className='profile-img img-fluid' src={pf}></img>
+              <img className='profile-img img-fluid' src={pf} alt="Thansiri Suphimon"></img>
             </div>
           </div>
           

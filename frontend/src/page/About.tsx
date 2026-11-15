@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import React from "react";
 import "../style/aboutMe.scss";
 import figma from '../image/figma.png';
 import projectend from '../image/projectend.png';
@@ -14,7 +14,7 @@ import Github from '../image/github-white.png';
 
 function About() {
 
-  const [experience, setExperience] = useState([
+  const experience = [
     {
       job: "Frontend Developer",
       time: "Jun 2026 - Present",
@@ -50,9 +50,9 @@ function About() {
       jobDescription: "Responsible for customizing UI in alignment with company guidelines to enhance visual appeal and usability.",
       skill: [ "Next", "Javascript","SCSS", "Bootstrap"]
     }
-  ]);
+  ];
 
-  const [project, setProject] = useState([
+  const project = [
     {
       nameProject: "Efficient Comparison of Algorithms to Predict Diabetes",
       projectDetails: "This project is using application to analyze machine learning data, which brings interesting algorithms to compare their effectiveness in predicting diabetes by Algorithms. that are studied as follows : " +
@@ -75,7 +75,7 @@ function About() {
       photo: figma,
       web: "https://www.figma.com/design/SwO8nQkNRz8J2qbq5vliXH/Portfolio?node-id=0-1&t=nzACG8HsoQywhJSd-1"
     },
-  ]);
+  ];
 
   return (
     <div className="bg-about-me">
@@ -91,15 +91,15 @@ function About() {
         <div className="mt-4 md:mt-8 2md:mt-8 lg:mt-8 xl:mt-8 2xl:mt-8 flex items-center">
           <div className="github-aboutme w-[35px] h-[35px] bg-[#000] mr-[10px] rounded-[50%] flex justify-center items-center">
             <a href="https://github.com/fah290944" >
-              <img className="img-github-aboutme w-[35px] h-[35px]" src={Github}></img>
+              <img className="img-github-aboutme w-[35px] h-[35px]" src={Github} alt="GitHub profile"></img>
             </a>
           </div>
             <div className="email-aboutme w-[35px] h-[35px] bg-[#fff] mx-[10px] rounded-[50%] flex justify-center items-center">
-              <img className="img-email-aboutme w-[22px] h-[20px]" src={Gmail} ></img>
+              <img className="img-email-aboutme w-[22px] h-[20px]" src={Gmail} alt="Gmail" ></img>
             </div>
             <div className="linkin-aboutme w-[35px] h-[35px] bg-[#fff] mx-[10px] rounded-[50%] flex justify-center items-center">
               <a href="https://www.linkedin.com/in/thansiri-suphimon-881135276/">
-                <img className="img-linkin-aboutme w-[35px] h-[35px]"  style={{borderRadius: "50%"}} src={Linkedin}></img>
+                <img className="img-linkin-aboutme w-[35px] h-[35px]"  style={{borderRadius: "50%"}} src={Linkedin} alt="LinkedIn profile"></img>
               </a>
             </div>
         </div>
