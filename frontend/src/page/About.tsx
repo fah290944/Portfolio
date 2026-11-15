@@ -16,6 +16,13 @@ function About() {
 
   const [experience, setExperience] = useState([
     {
+      job: "Frontend Developer",
+      time: "Jun 2026 - Present",
+      company: "WRK Software Co., Ltd.,",
+      jobDescription: "Frontend Developer experienced in building responsive, user-friendly web applications, including HRM systems, chatbot platforms, and internal management tools. Skilled in translating business requirements and Figma designs into functional solutions, with a focus on performance, usability, and clean code.",
+      skill: ["Next" ,"React", "Electron","Javascript", "Typescript", "SCSS", "Bootstrap","Tailwind", "HTML5", "CSS", "Pine Script",]
+    },
+    {
       job: "Web Developer",
       time: "Nov 2024 - Jan 2025",
       company: "Connect Accounting & Advisory Co., Ltd.,",
